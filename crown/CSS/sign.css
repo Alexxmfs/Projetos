@@ -1,3 +1,166 @@
 body{
-    background: url(../IMG/toru.jpg);
+    background-color: #FEDFF4;
+    
+}
+
+.nezuko{
+    position: absolute;
+    width:580px;
+    height:789px;
+    left: 0px;
+    top: 0px;
+    max-width: 100%;
+}
+
+.container{
+    position: absolute;
+    background-color: #202124;
+    width: 900px;
+    height: 799px;
+    right: 0px;
+    top: -10px;
+
+    
+}
+
+.crown{
+    background: linear-gradient(325deg, #F6EFA7, #FF0078);
+    font-size: 2.4rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    position: absolute;
+    left: 20px;
+    bottom: 700px;
+}
+
+.criar{
+    background: linear-gradient(325deg, #F6EFA7, #FF0078);
+    font-size: 3.2rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    position: absolute;
+    left: 100px;
+    bottom: 625px;
+}
+
+.tem-conta{
+    position: absolute;
+    color: #a3a2a0;
+    left: 105px;
+    top: 135px;
+}
+
+a{
+    color: #d37a05;
+    text-decoration: none;
+
+}
+a:hover{
+    color: #FF0078;
+    text-decoration: none;
+}
+
+
+
+
+
+.ochi{
+    position: absolute;
+    width: 340px;
+    top: 240px;
+    left: 460px;
+}
+
+
+
+
+
+form{
+    position: absolute;
+    width: 50%;
+    max-width: 100%;
+    left: 100px;
+    bottom: 400px;
+}
+
+
+
+.btn1{
+    position: absolute;
+    border: none;
+    margin: 20px;
+    padding: 24px;
+    top: 220px;
+    left: 280px;
+    width: 180px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    cursor: pointer;
+    color: black;
+    background-size: 200%;
+    background-image: linear-gradient(to left, #F6EFA7,#FF0078,#F6EFA7);
+    transform: scale(1.03);
+    transition: 2s;
+}
+.btn1:hover{
+    background-position: right;
+    transition: 2s;
+    -webkit-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    transform: scale(1.3);
+    
+}
+
+
+
+  .col-form-label {
+    padding-top: calc(0.375rem + 1px);
+    padding-bottom: calc(0.375rem + 1px);
+    margin-bottom: 0;
+    font-size: inherit;
+    line-height: 3;
+    color: #fff;
+  }
+  
+  .form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #FF0078;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(245, 13, 253, 0.25);
+  }
+
+  .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.500rem 0.100rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+main{
+  
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 280px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.bxl-gmail{
+    color: #000;
+    position: absolute;
+    top: 60px;
 }
