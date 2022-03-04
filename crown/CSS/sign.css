@@ -151,7 +151,7 @@ form{
   }
 
 main{
-  
+    position: absolute;
     padding: 20px;
     border-radius: 10px;
     min-width: 280px;
