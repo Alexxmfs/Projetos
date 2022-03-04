@@ -12,7 +12,7 @@ body{
 .container{
     position: absolute;
     height: 70%;
-    width: 50%;
+    width: 99%;
 }
       /* | #9600FF, #f25ef0 */
 .crown{
@@ -172,7 +172,7 @@ a:hover::after{
     overflow: hidden;
     position: absolute;
     width: 150px;
-    right: -1420px;
+    right: 25px;
     top: -2px;
     border-radius: 30px;
 }
