@@ -150,13 +150,12 @@ form{
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   }
 
-main{
-    position: absolute;
-    padding: 20px;
-    border-radius: 10px;
-    min-width: 280px;
-    max-width: 800px;
-    margin: auto;
+  main{
+    min-width: 800px;
+    max-width: 1000px;
+    min-height: 600px;
+    max-height: 1000px;
+
 }
 
 .bxl-gmail{

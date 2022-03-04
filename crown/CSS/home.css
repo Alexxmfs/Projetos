@@ -184,6 +184,7 @@ a:hover::after{
     content: "";
     position: absolute;
     left: 0;
+    width: 100%;
     height: 0%;
     background: #FF0078;
     z-index: -1;
