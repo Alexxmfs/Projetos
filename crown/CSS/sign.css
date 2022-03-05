@@ -150,14 +150,6 @@ form{
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   }
 
-  main{
-    min-width: 768px;
-    max-width: 1366px;
-    min-height: 768px;
-    max-height: 1366px;
-
-}
-
 .bxl-gmail{
     color: #000;
     position: absolute;
