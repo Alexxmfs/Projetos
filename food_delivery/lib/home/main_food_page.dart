@@ -19,6 +19,7 @@ class _MainFoodPageState extends State<MainFoodPage> {
     return Scaffold(
       body: Column(
         children: [
+          //showing the header
           Container(
             child: Container(
               margin: EdgeInsets.only(top: 45, bottom: 15),
@@ -28,10 +29,10 @@ class _MainFoodPageState extends State<MainFoodPage> {
                 children: [
                   Column(
                     children: [
-                      BigText(text: "Bangladesh", color: AppColors.mainColor),
+                      BigText(text: "Argentina", color: AppColors.mainColor),
                       Row(
                         children: [
-                          SmallText(text: "Narsingdi", color: Colors.black54),
+                          SmallText(text: "Córdova", color: Colors.black54),
                           Icon(Icons.arrow_drop_down_rounded)
                         ],
                       ),
@@ -52,6 +53,7 @@ class _MainFoodPageState extends State<MainFoodPage> {
               ),
             ),
           ),
+          // showing the body
           FoodPageBody(),
         ],
       ),
