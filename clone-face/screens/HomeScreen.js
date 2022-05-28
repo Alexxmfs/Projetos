@@ -14,7 +14,7 @@ const HomeScreen = () => {
             <Header />
             <NavbarTab />
 
-            <ScrollView>
+            <ScrollView showsHorizontalScrollIndicator={false}>
             <PostOption />
             <Stories />
             {POSTS.map((post,index) =>(
