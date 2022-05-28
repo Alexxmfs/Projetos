@@ -9,7 +9,7 @@ const Stories = () => {
     }}>
         <ScrollView horizontal showsHorizontalScrollIndicator={false}>
             <View>
-                <Image source={require("../../assets/story.jpg")}
+                <Image source={require("../../assets/story.png")}
                 style={{
                     width: 100,
                     height: 170,
