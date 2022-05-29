@@ -13,6 +13,8 @@ const Stories = () => {
                 style={{
                     width: 100,
                     height: 170,
+                    borderRadius: 15,
+                    left: 2,
                     resizeMode: "contain"
                 }}
                 />
