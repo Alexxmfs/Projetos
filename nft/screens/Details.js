@@ -1,4 +1,7 @@
-import { Text } from 'react-native';
+import { View, Text, SafeAreaView, Image, StatusBar, FlatList } from 'react-native';
+
+import { COLORS, SIZES, SHADOWS, FONTS, assets } from '../constants'
+import { CircleButton, RectButton, SubInfo, FocusedStatusBar, DetailsDesc, DetailsBid } from '../components';
 
 const Details = () => {
   return (
@@ -6,4 +9,4 @@ const Details = () => {
     )
 }
 
-export default Details
+export default Details                        
