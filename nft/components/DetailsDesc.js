@@ -1,11 +1,23 @@
+import { useState } from 'react'
 import { View, Text } from 'react-native'
-import React from 'react'
 
-const DetailsDesc = () => {
+import { EthPrice, NFTTitle } from './SubInfo';
+import { COLORS, SIZES, FONTS } from '../constants';
+
+const DetailsDesc = ({ data }) => {
   return (
-    <View>
-      <Text>DetailsDesc</Text>
-    </View>
+    <>
+      <View>
+        <NFTTitle 
+        title={data.name}
+        subTitle={data.creator}
+        titleSize={SIZES.extraLarge}
+        subTitleSize={SIZES.font}
+        />
+
+        
+      </View>
+    </>
   )
 }
 
