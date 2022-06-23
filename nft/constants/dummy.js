@@ -3,18 +3,18 @@ import assets from "./assets";
 const NFTData = [
   {
     id: "NFT-01",
-    name: "Abstracto #312",
+    name: "Doctor Stranger #312",
     creator: "Putri Intan",
     price: 4.25,
     description:
       "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural. The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural. The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural.",
-    image: assets.nft01,
+    image: assets.DoctorStranger,
     bids: [
       {
         id: "BID-11",
-        name: "Jessica Tan",
+        name: "Peter Parker",
         price: 4.25,
-        image: assets.person02,
+        image: assets.Aranha,
         date: "December 12, 2019 at 12:10 PM",
       },
       {
@@ -35,30 +35,30 @@ const NFTData = [
   },
   {
     id: "NFT-02",
-    name: "Green Coins",
+    name: "Cavaleiro da Lua",
     creator: "Siti Nurhaliza",
     price: 7.25,
     description:
       "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural. Nulla sed velit erat vitae leo sem inceptos diam fames arcu hendrerit, quis ultrices in eleifend posuere ipsum conubia porttitor felis.",
-    image: assets.nft02,
+    image: assets.Cavaleiro,
     bids: [
       {
         id: "BID-21",
         name: "Jessica Tan",
         price: 7.05,
-        image: assets.person04,
+        image: assets.Venom,
         date: "December 12, 2019 at 12:10 PM",
       },
     ],
   },
   {
     id: "NFT-03",
-    name: "NFT coins race",
+    name: "Wanda",
     creator: "Elisabeth aho",
     price: 95.25,
     description:
       "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural. Lorem ipsum dolor sit amet consectetur adipiscing elit consequat accumsan sapien, lectus convallis malesuada odio curae habitasse dignissim nascetur. Nulla sed velit erat vitae leo sem inceptos diam fames arcu hendrerit, quis ultrices in eleifend posuere ipsum conubia porttitor felis. Lorem ipsum dolor sit amet consectetur adipiscing elit consequat accumsan sapien, lectus convallis malesuada odio curae habitasse dignissim nascetur. Nulla sed velit erat vitae leo sem inceptos diam fames arcu hendrerit, quis ultrices in eleifend posuere ipsum conubia porttitor felis.",
-    image: assets.nft03,
+    image: assets.Wanda,
     bids: [
       {
         id: "BID-31",
