@@ -37,10 +37,10 @@ const Post = ({ post }) => {
       <PostImage post={post} />
       <View style={{marginHorizontal: 30, marginTop: 5}}>
       <PostFooter />
-      <Likes post={post} />
+      {/* <Likes post={post} /> */}
       <Caption post={post} />
       <CommentsSection post={post} />
-      <Comments post={post} />
+      {/* <Comments post={post} /> */}
       </View>
     </View>
   )
@@ -107,13 +107,13 @@ const Icon = ({imgStyle, imgUrl}) => (
 
 )
 
-const Likes = ({ post }) => (
-  <View style={{flexDirection: 'row', marginTop: 4 }}>
-    <Text style={{ color: 'white', fontWeight: '600' }}>
-    {post.likes.toLocaleString('en')} likes
-    </Text>
-  </View>
-)
+// const Likes = ({ post }) => (
+//   <View style={{ flexDirection: 'row', marginTop: 4}}>
+//     <Text style={{ color: 'white', fontWeight: '600' }}>
+//       {post?.likes_by_users.length.toLocaleString('en')} likes
+//     </Text>
+//   </View>
+// )
 
 const Caption = ({post}) => (
   <View style={{marginTop: 5 }}>
@@ -126,7 +126,7 @@ const Caption = ({post}) => (
 
 const CommentsSection = ({ post }) => (
 <View style={{marginTop: 5 }}>
-  {!!post.comments.length && (
+  {!!post.comments?.length && (
   <Text style={{ color: 'gray' }}>
     View{post.comments.length > 1 ? ' all' : ''} {post.comments.length}{''}
     {post.comments.length > 1 ? ' comments' : ' comment'}
@@ -135,21 +135,21 @@ const CommentsSection = ({ post }) => (
   </View>
 )
 
-const Comments = ({ post }) => {
-  return (
-<>
-  {post.comments.map((comment, index) => (
-    <View key={index} style={{flexDirection: 'row', marginTop: 2}}>
-      <Text style={{ color: 'white'}}>
-        <Text style={{fontWeight: '600'}}>{comment.user}</Text>{''}
-        {comment.comment}
-      </Text>
-    </View>
-  ))}
+// const Comments = ({ post }) => {
+//   return (
+// <>
+//   {post.comments?.map((comment, index) => (
+//     <View key={index} style={{flexDirection: 'row', marginTop: 2}}>
+//       <Text style={{ color: 'white'}}>
+//         <Text style={{fontWeight: '600'}}>{comment.user}</Text>{''}
+//         {comment.comment}
+//       </Text>
+//     </View>
+//   ))}
   
-  </>
-  )
-}
+//   </>
+//   )
+// }
 
 // A.) 0 comments 👉 Don't render component
 // B.) 1 comment 👉 render component without "all" and singular comment

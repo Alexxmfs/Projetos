@@ -1,10 +1,19 @@
 import React from 'react'
 import { View, Text, Image, StyleSheet, TouchableOpacity } from 'react-native'
+import {firebase} from '../../firebase';
 
-const Header = () => {
+const handleSignout = async () => {
+try {
+    await firebase.auth().signOut()
+    console.log('Signed out succesfully!')
+} catch (error) {
+    console.log(error)
+    }
+}
+const Header = ({navigation}) => {
   return (
     <View style={styles.container}>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={handleSignout}>
         <Image 
             style={styles.logo}
             source={require('../../assets/logo.png')} 
@@ -12,7 +21,7 @@ const Header = () => {
           </TouchableOpacity>
 
           <View style={styles.iconsContainer}>
-            <TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.push('NewPostScreen')}>
                 <Image 
                 source={{
                     uri: 'https://img.icons8.com/fluency-systems-regular/60/ffffff/plus-2-math.png'
