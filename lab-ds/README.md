@@ -1,26 +1,26 @@
-<img src="https://raw.githubusercontent.com/Alexxmfs/App_Ola_Classe/logoOlaClasse/image_logo.png" />
+<img src="https://www.cyberpunk.net/build/images/edgerunners/phase2/cover-desktop@1x-e6d6aaa1.jpg" />
 
-<h1>Olá Classe - App de Educação</h1>
+<h1>Rocketseat - Creating a Form</h1>
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
-<p>Quer aprender uma nova linguagem de programação? Entende de lógica e gostaria de compartilhar este conhecimento com mais pessoas? Junte-se a maior e única rede social de aprendizado para dar também o seu 'Olá, classe!'</p>
+<p>Design System e simular interações do usuário. Além disso, vamos automatizar o processo de deploy.</p>
 
 <br>
 <h2><b>Instalação</b></h2>
 
 **Baixe a última versão**
 ```
-git clone https://github.com/Alexxmfs/App_Ola_Classe.git
+git clone https://github.com/Alexxmfs/Projetos.git
 ```
 
 **Mudar para o diretório do projeto**
 ```
-cd App_Ola_Classe
+cd lab-ds
 
 # Em seguinda
 
-cd Ola_Classe
+cd lab-ds
 ```
 
 **Instalação de dependências**
@@ -28,33 +28,45 @@ cd Ola_Classe
 npm install
 ```
 
-**Exexutar Olá Classe**
+**Exexutar lab-ds**
 ```
-npx expo start
+npm run dev
 ```
+
+**Exexutar StoryBook**
+```
+npm run storybook
+```
+
 <br>
 <h2><b>Tecnologias Utilizadas</b></h2>
 
   <div style="display: inline_block"><br>
+  
+  <img align="center" alt="Alex-HTML5" height="60" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" hspace="10" />
+
+  <img align="center" alt="Alex-CSS" height="60" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" hspace="10" />
+  
   <img align="center" alt="Alex-Js" height="60" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"          hspace="10">
 
   <img align="center" alt="Alex-React-Native" height="60" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" hspace="10" />
 
-  <img align="center" alt="Alex-Firebase" height="60" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" hspace="10" />
+  <img align="center" alt="Alex-TypeScript" height="60" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"           hspace="10" />
   
-   <img align="center" alt="Alex-React-Navigation" height="60" width="60" src="https://reactnavigation.org/img/spiro.svg" hspace="10" />
+   <img align="center" alt="Alex-StoryBook" height="60" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original.svg"              hspace="10" />
    
-   <img align="center" alt="Alex-React-Navigation" height="60" width="60" src="https://opencollective-production.s3.us-west-1.amazonaws.com/e0c11e40-0595-11ea-bb7c-cf9c6343ca68.png" hspace="10" />
+   <img align="center" alt="Alex-ViteJS" height="75" width="75" src="https://vitejs.dev/logo-with-shadow.png" hspace="10" />
 
 
-   <img align="center" alt="Alex-React-Navigation" height="60" width="60"         src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" hspace="10"  />
+   <img align="center" alt="Alex-Vscode" height="60" width="60"         src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" hspace="10"  />
 
-   <img align="center" alt="Alex-React-Navigation" height="60" width="60" src="https://icons-for-free.com/iconfiles/png/512/expo-1324440155568384208.png" hspace="10"       />
+   <img align="center" alt="Alex-Tailwindcss" height="60" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"            hspace="10"       />
    
    <img align="center" alt="Alex-React-Navigation" height="60" width="60" src="https://cdn.worldvectorlogo.com/logos/figma-1.svg" hspace="10" />
+  
+
+
 
   </div>
-
-
 
 
