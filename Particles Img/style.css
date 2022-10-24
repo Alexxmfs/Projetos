@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+}
+body {
+  overflow: hidden;
+}
+#canvas1 {
+    border: 2px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 706px;
+}
+footer {
+  font-family: monospace;
+  color: white;
+  font-size: 15px;
+  margin-left: 5px;
+  text-shadow: 1px 1px 1px #737373; 
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 15px;
+}
+footer a {
+  color: orangered;
+}
