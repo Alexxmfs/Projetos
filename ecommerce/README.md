@@ -1,3 +1,5 @@
+<img src="https://blog.codeminer42.com/wp-content/uploads/2021/02/nextjs-cover.jpg" />
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
