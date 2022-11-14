@@ -8,7 +8,7 @@ export default {
             title: 'Image',
             type: 'image',
             options: {
-                hotspot: true,
+                hotshot: true,
             },
         },
         {
