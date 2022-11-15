@@ -1,12 +1,12 @@
-html,
+html {
+  background-color: #2C2C2C;
+}
 body, * {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   box-sizing: border-box;
-  background-color: #2C2C2C
-
 }
 ::-webkit-scrollbar {
   width: 0px;
