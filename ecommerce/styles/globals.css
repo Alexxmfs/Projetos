@@ -5,6 +5,7 @@ body, * {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   box-sizing: border-box;
+  background-color: #2C2C2C
 
 }
 ::-webkit-scrollbar {
@@ -199,7 +200,7 @@ text-align: end;
 .products-heading{
   text-align: center;
   margin: 40px 0px;
- color: #324d67;
+ color: #3F6C98;
 
 }
 .products-heading h2{
