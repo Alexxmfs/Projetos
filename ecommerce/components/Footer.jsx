@@ -7,10 +7,10 @@ const Footer = () => {
     <div className="footer-container">
       <p>2022 Alex Headphones Todos os direitos reservados</p>
       <p className="icons">
-        <a href="https://www.instagram.com/alex.maceedo/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/alex.maceedo/" target="_blank">
           <AiFillInstagram />
         </a>
-        <a href="https://www.linkedin.com/in/alex-macedo-610860235/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/alex-macedo-610860235/" target="_blank">
           <AiFillLinkedin />
         </a>
       </p>
