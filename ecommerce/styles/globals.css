@@ -107,7 +107,7 @@ width: 100%;
  cursor: pointer;
   transform: scale(1, 1);
   transition: transform 0.5s ease;
- color: #324d67;
+ color: #FFFFFF;
 
 }
 .product-card:hover{
@@ -126,7 +126,7 @@ width: 100%;
 .product-price{
   font-weight: 800;
   margin-top: 6px;
-  color: black;
+  color: white;
 }
 
 .hero-banner-container{
@@ -210,6 +210,7 @@ text-align: end;
 .products-heading p{
   font-size: 16px;
   font-weight: 200;
+  color: #d9d7d7
 }
 .footer-banner-container{
   padding: 100px 40px;
